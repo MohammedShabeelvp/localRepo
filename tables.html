@@ -4,9 +4,24 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <!--<style>
+            table {
+                border-collapse: collapse;
+                width: 50%;
+                text-align: center;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 8px:
+            }
+            th, td {
+                background-color: #2a2929;
+                color: white;
+            }
+        </style>-->
     </head>
-    <body>
-        <table>
+    <body >
+        <tableborder ='black'>
             <caption>Student chart</caption>
             <tr>
                 <th>Roll No</th>
@@ -24,9 +39,9 @@
                 <td>3</td>
                 <td>Kannan</td>
             </tr>
-        </table>
+        </tableborder>
         <br><hr />
-        <table>
+        <table border ='black'>
             <caption>Menu</caption>
             <tr>
                 <th>Product</th>
@@ -46,7 +61,7 @@
             </tr>
         </table>
         <br><hr />
-        <table>
+        <table border ='black'>
             <caption>Bill</caption>
             <thead>
                 <tr>
@@ -72,7 +87,7 @@
             </tfoot>
         </table>
         <br><hr />
-        <table>
+        <table border ='black'>
             <caption>Bill</caption>
             <thead>
                 <tr>
@@ -101,10 +116,72 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="3">Total</td>
-                    <td>54</td>
+                    <td colspan="2">Total</td>
+                    <td colspan="2">54</td>
                 </tr>
             </tfoot>
+        </table>
+        <br><hr />
+        <table border ='black'>
+            <caption>A test sample with merged cells</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="2">Average</th>
+                    <th rowspan="2">Red eyes</th>
+                </tr>
+                <tr>
+                    <th>Height</th>
+                    <th>Weight</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Male</td>
+                    <td>1.9</td>
+                    <td>0.003</td>
+                    <td>40 &percnt;</td>
+                </tr>
+                <tr>
+                    <td>Female</td>
+                    <td>1.7</td>
+                    <td>0.002</td>
+                    <td>43 &percnt;</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><hr />
+        <table border ='1'>
+            <caption>Student Information</caption>
+                <tr>
+                    <th rowspan="6">Info</th>
+                    <th rowspan="2">Name</th>
+                    <th colspan="2">Address</th>
+                </tr>
+                <tr>
+                    <th>City</th>
+                    <th>House</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>Delhi</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>Mumbai</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>Kolkata</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>Pune</td>
+                    <td>4</td>
+                </tr>
         </table>
     </body>
 </html>
