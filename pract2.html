@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ractice questions Form</title>
+    </head>
+    <body>
+        <div>
+            <h2>Registeration Form</h2>
+            
+            <form action="/server">
+                <div>
+                    <input type="text" placeholder="First Name" id = "fname" name="fname">
+                    <input type="text" placeholder="Last Name" id = "lname" name="lname">
+                </div>
+                <div>
+                    <label for="gender">Please select gender:</label>
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="male">Male</option>
+                        <option value="undisclosed">Prefer not not to say</option>
+                    </select>
+                </div>
+                <div>
+                    Do you agree the terms of service:
+                    <input type="checkbox" id = "term" name = "term">
+                    <label for="terms" value = "yes">yes, I agree</label>
+                </div>
+                <button type="submit">register</button>
+            </form>
+        </div>
+        <hr>
+        <div>
+            <form action="/server">
+                <div>
+                    <label for="name">Name :</label>
+                    <input type="text" placeholder="Name" id = "name" name="name">
+                </div>
+                <br>
+                <div>
+                    Sex:
+                    <input type="radio" id="male" name="sex" value = "male" />
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="sex" value = "female" />
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="sex" value = "other" />
+                    <label for="other">Other</label>
+                    
+                </div>
+                <br>
+                <div>
+                    <label for="country">Country</label>
+                   <select name="country" id="country">
+                        <option value = "IND">India</option>
+                        <option value = "NEP">Nepal</option>
+                        <option value = "USA">USA</option>
+                        <option value = "CAN">Canada </option>
+                   </select>
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" id="message" rows = "3" cols = "40"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" name="sub" id="sub" value ="yes">
+                    <label for="sub">Subscribe?</label>
+                </div>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <hr>
+        <div>
+            <h2>Feedback Form</h2>
+            
+            <form action="/server">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="Write your name" id = "name" name="name">
+                </div>
+                <br>
+                <div>
+                    <label for="mail">Email:</label>
+                    <input type="text"  placeholder="Write your Email" id = "mail" name="mail">
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" id="message" rows = "3" cols = "40"></textarea>
+                </div>
+                <br>
+                <div>
+                    Rate us out of 5:<br>
+                    <input type="radio" id="1" name="rate" value = "1" />
+                    <label for="1">1</label><br>
+                    <input type="radio" id="2" name="rate" value = "2" />
+                    <label for="2">2</label><br>
+                    <input type="radio" id="3" name="rate" value = "3" />
+                    <label for="3">3</label><br>
+                    <input type="radio" id="4" name="rate" value = "4" />
+                    <label for="4">4</label><br>
+                    <input type="radio" id="5" name="rate" value = "5" />
+                    <label for="5">5</label>
+                </div>
+                <br>
+                <button type="submit">Send your message!</button>
+            </form>
+        </div>
+    </body>
+</html>
